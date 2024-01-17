@@ -18,8 +18,23 @@
         app:defaultNavHost="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:navGraph="@navigation/navigation" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="301dp"
+        android:layout_height="310dp"
+        android:backgroundTint="#00985050"
+        android:tint="#08E80000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/fragmentContainerView"
+        app:layout_constraintStart_toStartOf="@+id/fragmentContainerView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745"
+        app:srcCompat="@drawable/schermafbeelding_2024_01_17_140134" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

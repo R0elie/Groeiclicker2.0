@@ -40,4 +40,58 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.007" />
 
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="373dp"
+        android:layout_height="320dp"
+        android:backgroundTint="#00FFFFFF"
+        android:rotation="-41"
+        android:rotationX="360"
+        android:rotationY="21"
+        android:scaleType="fitXY"
+        android:src="@drawable/hele_maai"
+        tools:layout_editor_absoluteX="-104dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="323dp"
+        android:layout_height="199dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        android:src="@drawable/schermafbeelding_2024_01_17_140134"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.686" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ben je klein en wil je groter worden?"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="speel dan groeiclicker"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.159" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
