@@ -12,19 +12,19 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
-        android:layout_width="270dp"
-        android:layout_height="111dp"
+        android:layout_width="304dp"
+        android:layout_height="126dp"
         android:ems="10"
         android:fontFamily="sans-serif"
         android:inputType="textPersonName"
         android:text="Welkom bij Groeiclicker"
-        android:textSize="24sp"
+        android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.411"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.106" />
+        app:layout_constraintVertical_bias="0.008" />
 
     <ImageButton
         android:id="@+id/imageButton8"
@@ -42,29 +42,34 @@
 
     <ImageButton
         android:id="@+id/imageButton5"
-        android:layout_width="373dp"
-        android:layout_height="320dp"
+        android:layout_width="315dp"
+        android:layout_height="278dp"
         android:backgroundTint="#00FFFFFF"
-        android:rotation="-41"
+        android:rotation="360"
         android:rotationX="360"
-        android:rotationY="21"
+        android:rotationY="360"
         android:scaleType="fitXY"
         android:src="@drawable/hele_maai"
-        tools:layout_editor_absoluteX="-104dp"
-        tools:layout_editor_absoluteY="205dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="323dp"
-        android:layout_height="199dp"
+        android:layout_width="276dp"
+        android:layout_height="149dp"
         android:backgroundTint="#00FFFFFF"
         android:scaleType="fitXY"
         android:src="@drawable/schermafbeelding_2024_01_17_140134"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.686" />
+        app:layout_constraintVertical_bias="0.749" />
 
     <TextView
         android:id="@+id/textView2"
@@ -72,10 +77,10 @@
         android:layout_height="wrap_content"
         android:text="ben je klein en wil je groter worden?"
         android:textColor="#000000"
-        android:textSize="16sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.434"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.128" />
@@ -86,12 +91,12 @@
         android:layout_height="wrap_content"
         android:text="speel dan groeiclicker"
         android:textColor="#000000"
-        android:textSize="16sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.447"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.159" />
+        app:layout_constraintVertical_bias="0.169" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
