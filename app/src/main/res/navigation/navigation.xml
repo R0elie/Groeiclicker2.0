@@ -15,4 +15,9 @@
         android:name="com.example.groeiclicker.groei_store"
         android:label="fragment_groei_store"
         tools:layout="@layout/fragment_groei_store" />
+    <fragment
+        android:id="@+id/fragmentsettings2"
+        android:name="com.example.groeiclicker.fragmentsettings"
+        android:label="fragment_blank2"
+        tools:layout="@layout/fragment_blank2" />
 </navigation>

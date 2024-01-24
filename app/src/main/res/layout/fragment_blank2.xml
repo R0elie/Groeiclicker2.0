@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/achtergrond"
+    tools:context=".fragmentsettings">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="settings"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="24dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="320dp"
+        android:layout_height="77dp"
+        android:text="music on/off"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="320dp"
+        android:layout_height="77dp"
+        android:text="sound effects on/off"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="89dp"
+        android:layout_height="36dp"
+        android:text="taal"
+        android:textSize="23sp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="63dp"
+        android:layout_height="71dp"
+        android:src="@drawable/netherlands_flag_on_button_vector_23503437"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="63dp"
+        android:layout_height="71dp"
+        android:src="@drawable/flag_of_great_britain_on_a_button_vector_23391083"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
