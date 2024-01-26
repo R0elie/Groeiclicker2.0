@@ -9,7 +9,11 @@
         android:id="@+id/blankFragment"
         android:name="com.example.groeiclicker.BlankFragment"
         android:label="fragment_blank"
-        tools:layout="@layout/fragment_blank" />
+        tools:layout="@layout/fragment_blank" >
+        <action
+            android:id="@+id/action_blankFragment_to_main_Game"
+            app:destination="@id/main_Game" />
+    </fragment>
     <fragment
         android:id="@+id/groei_store"
         android:name="com.example.groeiclicker.groei_store"

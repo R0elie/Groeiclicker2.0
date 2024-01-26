@@ -136,4 +136,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.115" />
 
+    <ImageButton
+        android:id="@+id/button_winkelmandje"
+        android:layout_width="88dp"
+        android:layout_height="84dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitXY"
+        android:src="@drawable/_286156_winkelwagen_in_een_rode_knop_vector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
