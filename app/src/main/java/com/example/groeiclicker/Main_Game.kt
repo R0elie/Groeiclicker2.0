@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.navigation.Navigation
 
@@ -24,7 +25,7 @@ class Main_Game : Fragment() {
     private var param1: String? = null
     private var param2: String? = null
 
-    var counter = 0.0
+    var counter = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
@@ -37,20 +38,39 @@ class Main_Game : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view =  inflater.inflate(R.layout.fragment_main__game, container, false)
+        val view = inflater.inflate(R.layout.fragment_main__game, container, false)
         view.findViewById<ImageButton>(R.id.imageButtonclickhere).setOnClickListener {
-
-            counter = counter + 0.1
-view.findViewById<TextView>(R.id.textcountermain).text = counter.toString()
+            counter = counter + 1
 
 
-        }
+            view.findViewById<TextView>(R.id.textcountermain).text = counter.toString()
+            if (counter == 20) {
+                view.findViewById<ImageView>(R.id.achtergrond_indicator)
+                    .setImageResource(R.drawable.stoep)
 
-        view.findViewById<ImageButton>(R.id.button_winkelmandje).setOnClickListener {
-            Navigation.findNavController(view).navigate(R.id.groei_store)
-        }
-        return view
+
+            }
+            if (counter == 100) {
+                view.findViewById<ImageView>(R.id.achtergrond_indicator)
+                    .setImageResource(R.drawable.auto_met_verkeers_bord)
+
+
+            }
+            if (counter == 300) {
+                view.findViewById<ImageView>(R.id.achtergrond_indicator)
+                    .setImageResource(R.drawable.houten_garage)
+
+
+                view.findViewById<ImageButton>(R.id.button_winkelmandje).setOnClickListener {
+                    Navigation.findNavController(view).navigate(R.id.groei_store)
 
 
                 }
+
+
             }
+
+        }
+        return view
+    }
+}
