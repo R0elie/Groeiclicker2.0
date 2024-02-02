@@ -3,24 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    app:startDestination="@id/blankFragment">
+    app:startDestination="@id/Start">
 
     <fragment
-        android:id="@+id/blankFragment"
+        android:id="@+id/Start"
         android:name="com.example.groeiclicker.BlankFragment"
         android:label="fragment_blank"
-        tools:layout="@layout/fragment_blank" >
-        <action
-            android:id="@+id/action_blankFragment_to_main_Game"
-            app:destination="@id/main_Game" />
-    </fragment>
+        tools:layout="@layout/fragment_blank" />
     <fragment
         android:id="@+id/groei_store"
         android:name="com.example.groeiclicker.groei_store"
         android:label="fragment_groei_store"
         tools:layout="@layout/fragment_groei_store" />
     <fragment
-        android:id="@+id/fragmentsettings2"
+        android:id="@+id/Settings"
         android:name="com.example.groeiclicker.fragmentsettings"
         android:label="fragment_blank2"
         tools:layout="@layout/fragment_blank2" />
