@@ -43,6 +43,11 @@ class BlankFragment : Fragment() {
 
 
 
+        view.findViewById<ImageButton>(R.id.Settings_Button_start).setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.Settings)
+        }
+
+
         return view
     }
 

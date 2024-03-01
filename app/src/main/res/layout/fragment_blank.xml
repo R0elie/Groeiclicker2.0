@@ -27,7 +27,7 @@
         app:layout_constraintVertical_bias="0.008" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/Settings_Button_start"
         android:layout_width="76dp"
         android:layout_height="74dp"
         android:backgroundTint="#00FFFFFF"
