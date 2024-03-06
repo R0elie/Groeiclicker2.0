@@ -39,11 +39,32 @@ class Main_Game : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_main__game, container, false)
-        view.findViewById<ImageButton>(R.id.imageButtonclickhere).setOnClickListener {
-            counter = counter + 1
+        view.findViewById<TextView>(R.id.textcountermain).text = counter.toString()
+
+
+
+        view.findViewById<ImageButton>(R.id.button_winkelmandje).setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.groei_store)
+
+        }
+        view.findViewById<ImageButton>(R.id.SettingsButtonMainGame).setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.Settings)
+
+
+
         }
 
+
+        view.findViewById<ImageButton>(R.id.imageButtonclickhere).setOnClickListener {
+            counter = counter + 1
             view.findViewById<TextView>(R.id.textcountermain).text = counter.toString()
+
+
+
+
+
+
+
             if (counter == 20) {
                 view.findViewById<ImageView>(R.id.achtergrond_indicator)
                     .setImageResource(R.drawable.stoep)
@@ -61,25 +82,22 @@ class Main_Game : Fragment() {
                     .setImageResource(R.drawable.houten_garage)
 
             }
-                view.findViewById<ImageButton>(R.id.button_winkelmandje).setOnClickListener {
-                    Navigation.findNavController(view).navigate(R.id.groei_store)
+            view.findViewById<ImageButton>(R.id.button_winkelmandje).setOnClickListener {
+                Navigation.findNavController(view).navigate(R.id.groei_store)
 
-                }
-                    view.findViewById<ImageButton>(R.id.SettingsButtonMainGame).setOnClickListener {
-                        Navigation.findNavController(view).navigate(R.id.Settings)
-
-                    }
-                        view.findViewById<ImageButton>(R.id.HomeButtonMainGame).setOnClickListener {
-                            Navigation.findNavController(view).navigate(R.id.Start)
-                        }
+            }
+            view.findViewById<ImageButton>(R.id.SettingsButtonMainGame).setOnClickListener {
+                Navigation.findNavController(view).navigate(R.id.Settings)
 
 
-
-
-        return view
 
             }
 
 
+        }
+        return view
+
+
+    }
 
     }

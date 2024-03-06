@@ -38,9 +38,12 @@ class groei_store : Fragment() {
 
         val view =  inflater.inflate(R.layout.fragment_groei_store, container, false)
         view.findViewById<ImageButton>(R.id.button_home_groeistore).setOnClickListener {
-            Navigation.findNavController(view).navigate(R.id.main_Game)
+            Navigation.findNavController(view).navigateUp()
         }
 
+        view.findViewById<ImageButton>(R.id.settings_button_store).setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.Settings)
+        }
 
 
         return view
