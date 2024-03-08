@@ -82,7 +82,10 @@ class Main_Game : Fragment() {
             view.findViewById<ImageView>(R.id.achtergrond_indicator)
                 .setImageResource(R.drawable.rock)
         }
-
+        if (counter > 49999) {
+            view.findViewById<ImageView>(R.id.achtergrond_indicator)
+                .setImageResource(R.drawable.burj_khalifa)
+        }
 
         view.findViewById<ImageButton>(R.id.button_winkelmandje).setOnClickListener {
             Navigation.findNavController(view).navigate(R.id.groei_store)
@@ -97,7 +100,7 @@ class Main_Game : Fragment() {
 
 
         view.findViewById<ImageButton>(R.id.imageButtonclickhere).setOnClickListener {
-            counter = counter + 1
+            counter = counter + 1000
             view.findViewById<TextView>(R.id.textcountermain).text = counter.toString()
 
 
@@ -146,7 +149,10 @@ class Main_Game : Fragment() {
                 view.findViewById<ImageView>(R.id.achtergrond_indicator)
                     .setImageResource(R.drawable.rock)
             }
-
+            if (counter > 49999) {
+                view.findViewById<ImageView>(R.id.achtergrond_indicator)
+                    .setImageResource(R.drawable.burj_khalifa)
+            }
 
             view.findViewById<ImageButton>(R.id.button_winkelmandje).setOnClickListener {
                 Navigation.findNavController(view).navigate(R.id.groei_store)
