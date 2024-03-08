@@ -72,6 +72,16 @@ class Main_Game : Fragment() {
                 .setImageResource(R.drawable.vlugzeug)
         }
 
+        if (counter > 2999) {
+            view.findViewById<ImageView>(R.id.achtergrond_indicator)
+                .setImageResource(R.drawable.gebauw)
+        }
+
+        if (counter > 9999) {
+            view.findViewById<ImageView>(R.id.achtergrond_indicator)
+                .setImageResource(R.drawable.rock)
+        }
+
 
         view.findViewById<ImageButton>(R.id.button_winkelmandje).setOnClickListener {
             Navigation.findNavController(view).navigate(R.id.groei_store)
@@ -125,6 +135,18 @@ class Main_Game : Fragment() {
                     .setImageResource(R.drawable.vlugzeug)
 
             }
+
+            if (counter > 2999) {
+                view.findViewById<ImageView>(R.id.achtergrond_indicator)
+                    .setImageResource(R.drawable.gebauw)
+            }
+
+            if (counter > 9999) {
+                view.findViewById<ImageView>(R.id.achtergrond_indicator)
+                    .setImageResource(R.drawable.rock)
+            }
+
+
             view.findViewById<ImageButton>(R.id.button_winkelmandje).setOnClickListener {
                 Navigation.findNavController(view).navigate(R.id.groei_store)
 
