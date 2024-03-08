@@ -159,14 +159,14 @@ class Main_Game : Fragment() {
 
             }
 
-
-        }
         return view
+        }
+
 
 
     }
 
-    }
+
 
 
 
