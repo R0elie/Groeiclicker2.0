@@ -58,7 +58,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:backgroundTint="#65000000"
-                    android:text="melk  1 m| 0,1m per sec  " />
+                    android:text="melk  1 m| 0,1m   " />
 
             </LinearLayout>
 
@@ -67,7 +67,7 @@
                 android:layout_width="394dp"
                 android:layout_height="70dp"
                 android:backgroundTint="#65000000"
-                android:text="spinazie  12,0 m| 1m per sec"
+                android:text="spinazie  12,0 m| 1m "
                 app:strokeColor="#000000" />
 
             <Button
@@ -75,42 +75,42 @@
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:backgroundTint="#65000000"
-                android:text="appel  1300m| 8m per sec  " />
+                android:text="appel  1300m| 8m " />
 
             <Button
                 android:id="@+id/button10"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:backgroundTint="#65000000"
-                android:text="banaan 15000m| 50m per sec" />
+                android:text="banaan 15000m| 50m " />
 
             <Button
                 android:id="@+id/button"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:backgroundTint="#65000000"
-                android:text="groei pil 150.000m| 250m per sec" />
+                android:text="groei pil 150.000m| 250m " />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:backgroundTint="#65000000"
-                android:text="igf pil 1mil| 1000m per sec" />
+                android:text="igf pil 1mil| 1000m" />
 
             <Button
                 android:id="@+id/button4"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:backgroundTint="#65000000"
-                android:text="hoge zolen 10 mil| 5000m/s" />
+                android:text="hoge zolen 10 mil| 5000m" />
 
             <Button
                 android:id="@+id/button5"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:backgroundTint="#65000000"
-                android:text="toverstaf 100mil| 25000m/s" />
+                android:text="toverstaf 100mil| 25000m" />
 
             <Button
                 android:id="@+id/button7"

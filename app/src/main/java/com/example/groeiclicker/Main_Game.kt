@@ -42,6 +42,36 @@ class Main_Game : Fragment() {
         view.findViewById<TextView>(R.id.textcountermain).text = counter.toString()
 
 
+        if (counter > 19) {
+            view.findViewById<ImageView>(R.id.achtergrond_indicator)
+                .setImageResource(R.drawable.stoep)
+
+
+        }
+        if (counter > 99) {
+            view.findViewById<ImageView>(R.id.achtergrond_indicator)
+                .setImageResource(R.drawable.auto_met_verkeers_bord)
+
+
+        }
+        if (counter > 299) {
+            view.findViewById<ImageView>(R.id.achtergrond_indicator)
+                .setImageResource(R.drawable.houten_garage)
+
+        }
+
+        if (counter > 499) {
+            view.findViewById<ImageView>(R.id.achtergrond_indicator)
+                .setImageResource(R.drawable.huis)
+
+        }
+
+
+        if (counter > 999) {
+            view.findViewById<ImageView>(R.id.achtergrond_indicator)
+                .setImageResource(R.drawable.vlugzeug)
+        }
+
 
         view.findViewById<ImageButton>(R.id.button_winkelmandje).setOnClickListener {
             Navigation.findNavController(view).navigate(R.id.groei_store)
@@ -65,21 +95,34 @@ class Main_Game : Fragment() {
 
 
 
-            if (counter == 20) {
+            if (counter > 19) {
                 view.findViewById<ImageView>(R.id.achtergrond_indicator)
                     .setImageResource(R.drawable.stoep)
 
 
             }
-            if (counter == 100) {
+            if (counter > 99) {
                 view.findViewById<ImageView>(R.id.achtergrond_indicator)
                     .setImageResource(R.drawable.auto_met_verkeers_bord)
 
 
             }
-            if (counter == 300) {
+            if (counter > 299) {
                 view.findViewById<ImageView>(R.id.achtergrond_indicator)
                     .setImageResource(R.drawable.houten_garage)
+
+            }
+
+
+            if (counter > 499) {
+                view.findViewById<ImageView>(R.id.achtergrond_indicator)
+                    .setImageResource(R.drawable.huis)
+
+            }
+
+            if (counter > 999) {
+                view.findViewById<ImageView>(R.id.achtergrond_indicator)
+                    .setImageResource(R.drawable.vlugzeug)
 
             }
             view.findViewById<ImageButton>(R.id.button_winkelmandje).setOnClickListener {
@@ -101,3 +144,34 @@ class Main_Game : Fragment() {
     }
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
