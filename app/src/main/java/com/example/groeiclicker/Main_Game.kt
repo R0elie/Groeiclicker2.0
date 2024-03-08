@@ -100,7 +100,7 @@ class Main_Game : Fragment() {
 
 
         view.findViewById<ImageButton>(R.id.imageButtonclickhere).setOnClickListener {
-            counter = counter + 1000
+            counter = counter + 1
             view.findViewById<TextView>(R.id.textcountermain).text = counter.toString()
 
 
